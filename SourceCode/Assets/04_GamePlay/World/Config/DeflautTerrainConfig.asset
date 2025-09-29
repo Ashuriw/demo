@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3124fd2d7385fad47990ddd3abbb42c0, type: 3}
+  m_Name: DeflautTerrainConfig
+  m_EditorClassIdentifier: 
+  dirts:
+  - {fileID: 11400000, guid: 768e983a381460f4aa8ae9695cadad23, type: 2}
+  dirtTop: {fileID: 11400000, guid: c2883098c42f78344821ee707df85d3a, type: 2}
+  dirtBottom: {fileID: 11400000, guid: 9b45bb0dd7149684eb7f9286980fe3bb, type: 2}
+  dirtLeft: {fileID: 11400000, guid: 1efafaf1f2f38734e9e92ec26ad295ef, type: 2}
+  dirtRight: {fileID: 11400000, guid: accad95fccb8d8c4499afd63881ed542, type: 2}
+  dirtTopLeft: {fileID: 11400000, guid: 09611728a8ea9fb429572f7a2ff7f4d2, type: 2}
+  dirtTopRight: {fileID: 11400000, guid: 89da822918aa23947aee87e490a70771, type: 2}
+  dirtBottomLeft: {fileID: 11400000, guid: b3bd7ce33e0cb604d8b86f1675564d22, type: 2}
+  dirtBottomRight: {fileID: 11400000, guid: 21005d177d7b0e945b2d8bb8ce4a5e9d, type: 2}
+  baseSizeLeft: -1000
+  baseSizeRight: 1000
+  baseSizeTop: 0
+  baseSizeBottom: -1000
+  surfaceHeightVariation: 10
+  surfaceFrequency: 0.05
+  baseFrequency: 0.02
+  baseAmplitude: 1
+  detailFrequency: 0.1
+  detailAmplitude: 0.3
+  dirtThreshold: 0.7
+  randomMin: 0
+  randomMax: 100
+  chunkSize: 16
+  updateCount: 16
+  loadRadius: 2
