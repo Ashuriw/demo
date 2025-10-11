@@ -476,7 +476,7 @@ MonoBehaviour:
       _dynamic: 0
   enter: 0
   exit: 0
-  lastStatus: 2
+  lastStatus: 3
   _weightedChildren:
   - node: {fileID: -793446091442722351}
     weight: 6
